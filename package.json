@@ -1,0 +1,45 @@
+{
+  "name": "veil.internetshop.simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlliaVeremiev/Simple-InternetShop.git"
+  },
+  "author": "Illia Veremiev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IlliaVeremiev/Simple-InternetShop/issues"
+  },
+  "homepage": "https://github.com/IlliaVeremiev/Simple-InternetShop#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "jquery": "^3.4.1",
+    "sockjs-client": "^1.3.0",
+    "vue": "^2.5.17",
+    "vue-cookies": "^1.5.13",
+    "vue-i18n": "^8.15.0",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^1.0.1",
+    "vue-loader": "^15.7.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7",
+    "webpack-merge": "^4.2.2"
+  }
+}

@@ -1,0 +1,2 @@
+INSERT INTO `warehouses` (`id`, `name`, `location`) VALUES (11005001, 'Mt. Hakkei Freesia Field', 11007001);
+INSERT INTO `warehouses` (`id`, `name`, `location`) VALUES (11005002, 'Вулфпен Холлоу', 11007002);

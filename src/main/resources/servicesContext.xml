@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="timeService" class="veil.internetshop.simple.services.impl.DefaultTimeService"/>
+
+	<bean id="categoryService" class="veil.internetshop.simple.services.impl.DefaultCategoryService"/>
+
+	<bean id="productService" class="veil.internetshop.simple.services.impl.DefaultProductService"/>
+
+	<bean id="searchService" class="veil.internetshop.simple.services.impl.DefaultSearchService"/>
+
+	<bean id="userService" class="veil.internetshop.simple.services.impl.DefaultUserService"/>
+
+	<bean id="cronJobService" class="veil.internetshop.simple.services.impl.DefaultCronJobService"/>
+
+	<bean id="scheduleService" class="veil.internetshop.simple.services.impl.DefaultScheduleService"
+	      init-method="setUp"/>
+
+	<bean id="cartService" class="veil.internetshop.simple.services.impl.DefaultCartService"/>
+
+	<bean id="contextService" class="veil.internetshop.simple.services.impl.DefaultContextService"/>
+
+	<bean id="cookieService" class="veil.internetshop.simple.services.impl.DefaultCookieService"/>
+
+	<bean id="authenticationService" class="veil.internetshop.simple.services.impl.DefaultAuthenticationService"/>
+
+</beans>
