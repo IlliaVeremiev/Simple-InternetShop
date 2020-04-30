@@ -19,7 +19,7 @@
   "homepage": "https://github.com/IlliaVeremiev/Simple-InternetShop#readme",
   "dependencies": {
     "@babel/polyfill": "^7.6.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "sockjs-client": "^1.3.0",
     "vue": "^2.5.17",
     "vue-cookies": "^1.5.13",
