@@ -24,7 +24,8 @@ export const en = {
 			failure: {
 				exception: {
 					badcredentials: "Invalid username or password",
-					disabled: "Disabled"
+					disabled: "Disabled",
+					error: "Invalid username or password"
 				}
 			},
 			form: {
