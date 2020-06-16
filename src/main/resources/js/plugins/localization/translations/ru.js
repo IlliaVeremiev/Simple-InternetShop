@@ -24,7 +24,8 @@ export const ru = {
 			failure: {
 				exception: {
 					badcredentials: "Неверное имя пользователя или пароль",
-					disabled: "Заблокирован"
+					disabled: "Заблокирован",
+                    error: "Неверное имя пользователя или пароль"
 				}
 			},
 			form: {

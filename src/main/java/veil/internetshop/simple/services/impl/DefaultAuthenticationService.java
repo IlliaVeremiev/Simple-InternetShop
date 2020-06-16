@@ -48,6 +48,8 @@ public class DefaultAuthenticationService extends RequestContextListener impleme
             response.sendError(HttpServletResponse.SC_UNAUTHORIZED, Localization.BAD_CREDENTIALS_EXCEPTION);
         }else if(exception.getClass() == DisabledException.class){
             response.sendError(HttpServletResponse.SC_UNAUTHORIZED, Localization.DISABLED_EXCEPTION);
+        }else{
+            response.sendError(HttpServletResponse.SC_UNAUTHORIZED, Localization.AUTHENTICATION_EXCEPTION);
         }
     }
 
