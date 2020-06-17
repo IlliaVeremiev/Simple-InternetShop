@@ -1,0 +1,1 @@
+INSERT INTO "carts" ("id", "user_id") VALUES (01001001, 00989001);

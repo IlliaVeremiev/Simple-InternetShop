@@ -108,6 +108,7 @@ export default new Vuex.Store({
         async loadCatalogPage(context, params) {
             const result = await CatalogApi.loadCatalog(params);
             const data = await result.json();
+            console.log(data);
             context.commit('setCatalogData', data);
         },
         async loadAllCategories(context) {

@@ -1,0 +1,10 @@
+INSERT INTO "categories" ("id", "code", "name") VALUES (10998001, 'category1', 'Products 1');
+INSERT INTO "categories" ("id", "code", "name") VALUES (10998002, 'category2', 'Products 2');
+INSERT INTO "categories" ("id", "code", "name") VALUES (10998003, 'category3', 'Products 3');
+INSERT INTO "categories" ("id", "code", "name") VALUES (10998004, 'category4', 'Products 4');
+INSERT INTO "categories" ("id", "code", "name") VALUES (10998005, 'category5', 'Products 5');
+INSERT INTO "categories" ("id", "code", "name") VALUES (10998006, 'category6', 'Products 6');
+INSERT INTO "categories" ("id", "code", "name") VALUES (10998007, 'category7', 'Products 7');
+INSERT INTO "categories" ("id", "code", "name") VALUES (10998008, 'category8', 'Products 8');
+INSERT INTO "categories" ("id", "code", "name") VALUES (10998009, 'category9', 'Products 9');
+INSERT INTO "categories" ("id", "code", "name") VALUES (10998010, 'category10', 'Products 10');

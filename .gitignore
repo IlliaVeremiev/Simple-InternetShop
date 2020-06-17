@@ -39,6 +39,7 @@ yarn-error.log
 /src/main/resources/static/js/
 .mvn/
 *nppBackup/
+logs/
 
 # Editor directories and files
 .idea

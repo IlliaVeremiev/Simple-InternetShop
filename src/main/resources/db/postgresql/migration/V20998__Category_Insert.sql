@@ -1,0 +1,1 @@
+INSERT INTO "categories" ("id", "code", "name") VALUES (00998001, 'products', 'Products');

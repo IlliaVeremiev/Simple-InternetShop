@@ -66,9 +66,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.18</version>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.2.14</version>
 		</dependency>
 
 		<dependency>
@@ -140,20 +140,6 @@
 				<goals>
 					<goal>build-info</goal>
 				</goals>
-				<executions>
-					<execution>
-						<id>pre-integration-test</id>
-						<goals>
-							<goal>start</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>post-integration-test</id>
-						<goals>
-							<goal>stop</goal>
-						</goals>
-					</execution>
-				</executions>
 			</plugin>
 			<plugin>
 				<artifactId>exec-maven-plugin</artifactId>
